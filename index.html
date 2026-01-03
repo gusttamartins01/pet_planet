@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <meta name="description" content="Pet Planet — serviços completos para o cuidado do seu pet.">
+    <title>Pet Planet</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container" id="navbar">
+            <div class="nav-logo">
+                <p>Pet Planet</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero-section">Início</a></li>
+                    <li><a href="#about-section">Sobre</a></li>
+                    <li><a href="#service-section">Serviços</a></li>
+                    <li><a href="#contact-section">Contatos</a></li>
+                    <li><a href="#assessment-section">Avaliação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero-section" id="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Pet Planet</h1>
+                    <p>
+                        Aqui na Pet Planet, seu pet recebe carinho, cuidado e tudo o que ele precisa para viver
+                        feliz e saudável.
+                    </p>
+
+                </div>
+                <div class="hero-img">
+                    <img src="./assets/logo_pet.png" alt="Logo da section hero">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+
+        <section class="about-section" id="about-section">
+            <div class="about-container">
+                <h2>Sobre nós</h2>
+                <p>
+                    A Pet Planet nasceu do amor pelos animais e da vontade de oferecer um cuidado verdadeiro para quem
+                    faz parte da família. Acreditamos que cada pet merece atenção, carinho e produtos de qualidade para
+                    viver com saúde, conforto e felicidade. <br>
+
+                    Trabalhamos com dedicação para oferecer tudo o que seu melhor amigo precisa, desde alimentação e
+                    acessórios até cuidados essenciais para o bem-estar do dia a dia. Nosso compromisso é garantir um
+                    atendimento humanizado, respeitoso e sempre focado nas necessidades de cada pet. <br>
+
+                    Aqui, cada detalhe é pensado com amor, porque entendemos que cuidar de um pet é cuidar de uma vida.
+                    Na Pet Planet, seu companheiro recebe mais do que serviços e produtos: recebe cuidado, confiança e
+                    muito carinho.
+                </p>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+
+        <section class="service-section" id="service-section">
+            <div class="service-content">
+                <h2>Serviços</h2>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <img src="#" alt="img service 1">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </h3>
+                        <div class="prices">
+                            <p>
+                                R$ 50,00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="#" alt="img service 2">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </h3>
+                        <div class="prices">
+                            <p>
+                                R$ 50,00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="#" alt="img service 3">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </h3>
+                        <div class="prices">
+                            <p>
+                                R$ 50,00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTS SECTION -->
+
+        <section class="contact-section" id="contact-section">
+            <div class="contact-content">
+                <h2>Contatos</h2>
+                <p>Nos contate através de nossas redes</p>
+                <div class="social-media">
+                    <img src="./assets/logo_pet.png" alt="instagram">
+                </div>
+                <div class="social-media">
+                    <img src="#" alt="whatsapp">
+                </div>
+                <div class="social-media">
+                    <img src="#" alt="email">
+                </div>
+            </div>
+        </section>
+
+        <!-- ASSESSMENT SECTION -->
+
+        <section class="assessment-section" id="assessment-section">
+            <form class="assessment-form" action="#" method="post">
+                <h2>Avaliação</h2>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="rating">Avaliação</label>
+                    <select id="rating" name="rating" required>
+                        <option value="">Selecione</option>
+                        <option value="5">⭐⭐⭐⭐⭐ Excelente</option>
+                        <option value="4">⭐⭐⭐⭐ Muito bom</option>
+                        <option value="3">⭐⭐⭐ Bom</option>
+                        <option value="2">⭐⭐ Regular</option>
+                        <option value="1">⭐ Ruim</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comentário</label>
+                    <textarea id="comment" name="comment" rows="4" placeholder="Deixe sua opinião">
+                    </textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    Enviar Avaliação
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>
+                &copy; 2026 <strong>Pet Planet</strong>. Desenvolvido por Gustavo Martins.
+                Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
